@@ -10,7 +10,7 @@ import java.util.Stack;
 public class ExpressionTree {
 
     public static boolean isOperator(char c) {
-		return c == '+' || c == '-' || c == '*' || c == '/';
+	return c == '+' || c == '-' || c == '*' || c == '/';
     }
     
     public void inorder(Node node) {
